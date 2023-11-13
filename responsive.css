@@ -1,0 +1,38 @@
+@media(max-width:1000px ){
+    .section-1{
+        background-color: rgb(70, 70, 10);
+    }
+    .section-1 h1{
+        font-style: italic;
+        color: aliceblue;
+        text-align: center;
+    }
+    .section-1 p{
+        color: aliceblue;
+        text-align: center;
+        
+    }
+    .membar{
+        width: 48%;
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width:500px){
+    .section-1{
+        background-color: rgb(154, 65, 65);
+        
+    }
+    .section-1 p{
+        font-size: 30px;
+        text-align: center;
+
+    }
+    .section-1 a{
+        display: inline-block;
+    }
+    .membar{
+        width: 100%;
+    }
+    
+}

@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.section-1{
+    background-color: rgb(0, 0, 0);
+    padding: 70px 0;
+}
+.contrenar{
+    width: 85%;
+    margin: auto;
+}
+.section-1 h1{
+    color: rgb(224, 224, 47);
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.section-1 p{
+    color: rgb(180, 180, 33);
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.section-1 a{
+    color: black;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: yellow;
+    display: none;
+}
+.team{
+    background-color: aliceblue;
+    padding: 100px 0;
+}
+.team-membar{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap ;
+}
+.membar{
+    width: 23.5%;
+}
+.membat img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
